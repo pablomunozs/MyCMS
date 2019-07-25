@@ -1,4 +1,3 @@
-django-cms
 aldryn-bootstrap3==1.3.0
 certifi==2019.6.16
 chardet==3.0.4
