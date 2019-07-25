@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8306786c-663c-4f42-9040-feac6400f4f9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCMS/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyCMS/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyCMS/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="212" column="62" selection-start-line="212" selection-start-column="17" selection-end-line="212" selection-end-column="62" />
+            <state relative-caret-position="430">
+              <caret line="216" column="17" selection-start-line="216" selection-start-column="17" selection-end-line="216" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -38,11 +37,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="716" />
-    <option name="y" value="417" />
-    <option name="width" value="1026" />
-    <option name="height" value="554" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -114,10 +113,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="716" y="417" width="1026" height="554" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49643704" visible="true" weight="0.47975707" />
-      <window_info id="Structure" order="1" sideWeight="0.5035629" side_tool="true" visible="true" weight="0.47975707" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49517685" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="1" sideWeight="0.50482315" side_tool="true" visible="true" weight="0.24973656" />
       <window_info id="Favorites" order="2" sideWeight="0.5016077" side_tool="true" weight="0.24973656" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -175,8 +175,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MyCMS/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="212" column="62" selection-start-line="212" selection-start-column="17" selection-end-line="212" selection-end-column="62" />
+        <state relative-caret-position="430">
+          <caret line="216" column="17" selection-start-line="216" selection-start-column="17" selection-end-line="216" selection-end-column="17" />
         </state>
       </provider>
     </entry>

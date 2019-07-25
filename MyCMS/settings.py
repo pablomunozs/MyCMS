@@ -208,13 +208,13 @@ CMS_PLACEHOLDER_CONF = {
 
 DATABASES = {
     'default': {
-        #'CONN_MAX_AGE': 0,
-        'ENGINE': 'django.db.backends.mysql',
-        'HOST': 'sipcofrance.mysql.pythonanywhere-services.com',
-        'NAME': 'cms_sipco',
-        'PASSWORD': 'Barceloneta13%',
+        'CONN_MAX_AGE': 0,
+        'ENGINE': 'django.db.backends.sqlite3',
+        'HOST': 'localhost',
+        'NAME': 'project.db',
+        'PASSWORD': '',
         'PORT': '',
-        'USER': 'sipcofrance'
+        'USER': ''
     }
 }
 
