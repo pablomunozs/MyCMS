@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8306786c-663c-4f42-9040-feac6400f4f9" name="Default Changelist" comment="" />
+    <list default="true" id="8306786c-663c-4f42-9040-feac6400f4f9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyCMS/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyCMS/settings.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,20 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyCMS/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MyCMS/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+            <state relative-caret-position="204">
+              <caret line="212" column="62" selection-start-line="212" selection-start-column="17" selection-end-line="212" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -39,14 +33,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MyCMS/settings.py" />
         <option value="$PROJECT_DIR$/MyCMS/templates/base.html" />
+        <option value="$PROJECT_DIR$/MyCMS/settings.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="170" />
-    <option name="y" value="92" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="716" />
+    <option name="y" value="417" />
     <option name="width" value="1026" />
     <option name="height" value="554" />
   </component>
@@ -82,6 +76,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
@@ -119,11 +114,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="716" y="417" width="1026" height="554" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49732047" visible="true" weight="0.24973656" />
-      <window_info id="Structure" order="1" sideWeight="0.5026795" side_tool="true" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49643704" visible="true" weight="0.47975707" />
+      <window_info id="Structure" order="1" sideWeight="0.5035629" side_tool="true" visible="true" weight="0.47975707" />
       <window_info id="Favorites" order="2" sideWeight="0.5016077" side_tool="true" weight="0.24973656" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -172,17 +166,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyCMS/settings.py">
+    <entry file="file://$PROJECT_DIR$/MyCMS/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        <state relative-caret-position="-240">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyCMS/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/MyCMS/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        <state relative-caret-position="204">
+          <caret line="212" column="62" selection-start-line="212" selection-start-column="17" selection-end-line="212" selection-end-column="62" />
         </state>
       </provider>
     </entry>

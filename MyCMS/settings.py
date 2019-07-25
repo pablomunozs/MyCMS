@@ -210,11 +210,11 @@ DATABASES = {
     'default': {
         #'CONN_MAX_AGE': 0,
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': 'localhost',
+        'HOST': 'sipcofrance.mysql.pythonanywhere-services.com',
         'NAME': 'cms_sipco',
-        'PASSWORD': 'conene1990%',
-        'PORT': '3306',
-        'USER': 'djangocms_sipco'
+        'PASSWORD': 'Barceloneta13%',
+        'PORT': '',
+        'USER': 'sipcofrance'
     }
 }
 
