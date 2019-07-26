@@ -116,8 +116,7 @@ MIDDLEWARE = [
     'cms.middleware.toolbar.ToolbarMiddleware',
     'cms.middleware.language.LanguageCookieMiddleware',
     'multisite.middleware.DynamicSiteMiddleware',
-    'cms.middleware.utils.ApphookReloadMiddleware',
-    'djangocms_multisite.middleware.CMSMultiSiteMiddleware'
+    'multisite.middleware.CookieDomainMiddleware'
 ]
 
 INSTALLED_APPS = [
@@ -145,7 +144,6 @@ INSTALLED_APPS = [
     'djangocms_video',
     'aldryn_bootstrap3',
     'multisite',
-    'djangocms_multisite',
     'cmsplugin_css_background',
     'MyCMS'
 ]
@@ -283,3 +281,31 @@ CKEDITOR_SETTINGS = {
         },
     ]
 }
+
+# Multisites conf
+# The cache connection to use for django-multisite.
+# Default: 'default'
+CACHE_MULTISITE_ALIAS = 'default'
+
+# The cache key prefix that django-multisite should use.
+# If not set, defaults to the KEY_PREFIX used in the defined
+# CACHE_MULTISITE_ALIAS or the default cache (empty string if not set)
+CACHE_MULTISITE_KEY_PREFIX = ''
+
+
+MULTISITE_EXTRA_HOSTS = ['sipcofrance.pythonanywhere.com']
+# will match the single additional host
+
+MULTISITE_EXTRA_HOSTS = ['.pythonanywhere.com']
+# will match any host ending '.example.com'
+
+# The view function or class-based view that django-multisite will
+# use when it cannot match the hostname with a Site. This can be
+# the name of the function or the function itself.
+# Default: None
+MULTISITE_FALLBACK = 'django.views.generic.base.RedirectView'
+
+# Keyword arguments for the MULTISITE_FALLBACK view.
+# Default: {}
+MULTISITE_FALLBACK_KWARGS = {'url': 'https://sipcofrance.pythonanywhere.com',
+                             'permanent': False}
