@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 from __future__ import absolute_import, print_function, unicode_literals
 
-from cms.sitemaps import CMSSitemap
 from django.conf import settings
 from django.conf.urls import include, url
 from django.contrib import admin
@@ -12,9 +11,6 @@ from django.views.static import serve
 admin.autodiscover()
 
 urlpatterns = [
-    url(r'^sitemap\.xml$', sitemap,
-        {'sitemaps': {'cmspages': CMSSitemap}}
-    ),
     url(r'^admin/', admin.site.urls),  # NOQA
     url(r'^', include('cms.urls'))
 ]

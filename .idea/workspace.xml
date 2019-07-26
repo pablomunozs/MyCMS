@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8306786c-663c-4f42-9040-feac6400f4f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCMS/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyCMS/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCMS/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyCMS/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +18,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyCMS/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2516">
+            <state relative-caret-position="2210">
               <caret line="148" column="26" lean-forward="true" selection-start-line="148" selection-start-column="26" selection-end-line="148" selection-end-column="26" />
             </state>
           </provider>
@@ -41,11 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyCMS/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-              <folding>
-                <element signature="e#24#96#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -202,18 +197,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MyCMS/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2516">
+        <state relative-caret-position="2210">
           <caret line="148" column="26" lean-forward="true" selection-start-line="148" selection-start-column="26" selection-end-line="148" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyCMS/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding>
-            <element signature="e#24#96#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
