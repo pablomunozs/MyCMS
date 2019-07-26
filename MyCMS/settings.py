@@ -68,7 +68,8 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'MyCMS', 'static'),
 )
 
-SITE_ID = 1
+from multisite import SiteID
+SITE_ID = SiteID(default=1)
 
 
 TEMPLATES = [
