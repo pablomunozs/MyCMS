@@ -13,10 +13,8 @@ from django.views.static import serve
 admin.autodiscover()
 
 urlpatterns = [
-url(r'^media/(?P<path>.*)$', serve,
-            {'document_root': settings.MEDIA_ROOT, 'show_indexes': True}),
-#    url(r'^sitemap\.xml$', sitemap,
-#        {'sitemaps': {'cmspages': CMSSitemap}}),
+    url(r'^sitemap\.xml$', sitemap,
+        {'sitemaps': {'cmspages': CMSSitemap}}),
 ]
 
 urlpatterns += i18n_patterns(
