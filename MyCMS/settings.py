@@ -113,7 +113,7 @@ MIDDLEWARE = [
     'cms.middleware.user.CurrentUserMiddleware',
     'cms.middleware.page.CurrentPageMiddleware',
     'cms.middleware.toolbar.ToolbarMiddleware',
-    'cms.middleware.language.LanguageCookieMiddleware'
+    'cms.middleware.language.LanguageCookieMiddleware',
     'multisite.middleware.DynamicSiteMiddleware',
     'cms.middleware.utils.ApphookReloadMiddleware',
     'djangocms_multisite.middleware.CMSMultiSiteMiddleware'
