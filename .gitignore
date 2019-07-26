@@ -1,7 +1,6 @@
 *.pyc
 *~
 __pycache__
-project.db
 .DS_Store
 datadump.json
 readme.txt
