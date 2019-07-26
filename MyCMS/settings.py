@@ -26,7 +26,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '2eni8l^y6d-bpu0$4gm7sj=8%y5qb5v_0lp=%5ox6b7b--ny_z'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['localhost', '.sipco-france.fr', 'sipcofrance.pythonanywhere.com']
 
