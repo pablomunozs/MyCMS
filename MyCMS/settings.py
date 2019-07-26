@@ -28,7 +28,7 @@ SECRET_KEY = '2eni8l^y6d-bpu0$4gm7sj=8%y5qb5v_0lp=%5ox6b7b--ny_z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '.sipco-france.fr', 'sipcofrance.pythonanywhare.com']
+ALLOWED_HOSTS = ['localhost', '.sipco-france.fr', 'sipcofrance.pythonanywhere.com']
 
 
 # Application definition
