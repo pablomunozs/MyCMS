@@ -28,7 +28,7 @@ SECRET_KEY = '2eni8l^y6d-bpu0$4gm7sj=8%y5qb5v_0lp=%5ox6b7b--ny_z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '.sipco-france.fr']
+ALLOWED_HOSTS = ['localhost', '.sipco-france.fr', 'sipcofrance.pythonanywhare.com']
 
 
 # Application definition
@@ -67,8 +67,8 @@ STATIC_ROOT = os.path.join(DATA_DIR, 'static')
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'MyCMS', 'static'),
 )
-from multisite import SiteID
-SITE_ID = SiteID(default=1)
+
+SITE_ID = 1
 
 
 TEMPLATES = [
@@ -92,9 +92,7 @@ TEMPLATES = [
             'loaders': [
                 'django.template.loaders.filesystem.Loader',
                 'django.template.loaders.app_directories.Loader',
-                'django.template.loaders.eggs.Loader',
-                'multisite.template.loaders.filesystem.Loader',
-                'django.template.loaders.app_directories.Loader'
+                'django.template.loaders.eggs.Loader'
             ],
         },
     },
@@ -113,10 +111,7 @@ MIDDLEWARE = [
     'cms.middleware.user.CurrentUserMiddleware',
     'cms.middleware.page.CurrentPageMiddleware',
     'cms.middleware.toolbar.ToolbarMiddleware',
-    'cms.middleware.language.LanguageCookieMiddleware',
-    'multisite.middleware.DynamicSiteMiddleware',
-    'cms.middleware.utils.ApphookReloadMiddleware',
-    'djangocms_multisite.middleware.CMSMultiSiteMiddleware'
+    'cms.middleware.language.LanguageCookieMiddleware'
 ]
 
 INSTALLED_APPS = [
@@ -143,8 +138,6 @@ INSTALLED_APPS = [
     'djangocms_googlemap',
     'djangocms_video',
     'aldryn_bootstrap3',
-    'multisite',
-    'djangocms_multisite',
     'cmsplugin_css_background',
     'MyCMS'
 ]
